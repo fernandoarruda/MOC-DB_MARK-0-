@@ -1,0 +1,77 @@
+body {
+    background-color: #202024;  
+}
+
+p {
+    font-family: "Roboto", "Times New Roman", Times, serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+}
+.logotitulo {
+    height: 200px;
+    border: 1px solid rgb(67 82 90 / 0.15);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente no centro */
+    align-items: center; /* alinha verticalmente no centro */
+    
+}
+
+.logotipo img{
+    max-width: 100%; /* limita a largura da imagem a 100% da div */
+    max-height: 100%; /* limita a altura da imagem a 100% da div */
+}
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px; 
+}
+
+.box {
+    width: 300px;
+    height: 450px;
+    border: 1px solid rgba(254, 254, 254, 0.15);
+    border-radius: 10px;
+    display:flex;
+    position:relative;
+}
+
+.capa {
+    max-width: 200px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.capa img {
+    max-width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.lowinfo {
+    max-width: 200px;
+    height: 100px;
+    margin: 10px;
+    /*border: solid 2px red;*/
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.icones {
+    width: 60px;
+    height: 430px;
+    margin: 10px;
+    /**border: solid 2px red;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icones img {
+    max-width: 55px;
+    height: auto;
+    margin:2px;
+}

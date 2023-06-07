@@ -1,0 +1,131 @@
+body{
+    background-color: #202024;
+}
+
+p {
+    font-family: "Roboto", "Times New Roman", Times, serif;
+    font-weight: bold;
+    line-height: 1;
+    color:white;
+}
+
+
+.raioxde {
+    height: 80px;
+}
+
+
+h1 {
+    color: white;
+    height: 15px;
+    text-shadow: 1px 1px 1px #7a7979;
+    font-family: "Roboto", "Times New Roman", Times, serif;
+
+}
+    
+
+.logotitulo {
+    height: 150px;
+    border: 1px solid rgb(67 82 90 / 0.15);
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente no centro */
+    align-items: center; /* alinha verticalmente no centro */
+    
+}
+
+.logotipo img{
+    max-width: 100%; /* limita a largura da imagem a 100% da div */
+    max-height: 100%; /* limita a altura da imagem a 100% da div */
+}
+.raiox {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px; 
+}
+
+
+
+.titulo {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px; 
+}
+
+.box {
+    width: 530px;
+    height: 750px;
+    border: 1px solid rgba(254, 254, 254, 0.15);
+    border-radius: 10px;
+    display:flex;
+    position:relative;
+}
+
+.capa {
+    /*max-width: 400px;*/
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.capa img {
+    max-width: 430px;
+    height: auto;
+    padding: 10px;
+}
+
+.edant {
+    max-width: 200px;
+    height: 100px;
+    margin: 10px;
+    border: solid 2px red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.proxed {
+    max-width: 200px;
+    height: 85px;
+    margin: 10px;
+    border: 1px solid rgba(254, 254, 254, 0.15);
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: large;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.proxed p{
+    color:#202024;
+    line-height: 1.5;
+}    
+
+.icones {
+    width: 60px;
+    height: 430px;
+    margin: 10px;
+    /**border: solid 2px red;*/
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icones img {
+    max-width: 55px;
+    height: auto;
+    margin:2px;
+}
+
+.sideinfo {
+    max-width: 1350px;
+    height: 750px;
+    border: 1px solid rgb(67 82 90 / 0.15);
+    border-radius: 10px;
+    /*background-color: blue;*/
+}
